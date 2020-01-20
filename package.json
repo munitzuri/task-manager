@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.5.0",
     "mongoose": "^5.8.7",
     "validator": "^12.1.0"
@@ -13,8 +15,8 @@
     "nodemon": "^2.0.2"
   },
   "scripts": {
-    "start": "node src/db/index.js",
-    "dev": "nodemon src/db/index.js -e js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -e js"
   },
   "keywords": [],
   "author": "",
